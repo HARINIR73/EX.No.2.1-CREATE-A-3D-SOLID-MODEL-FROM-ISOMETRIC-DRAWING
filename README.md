@@ -11,16 +11,36 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
 ## PROCEDURE
-Create Sketch on XY Plane, draw Rectangle 100 x 50, Extrude 35 - Main Body ready.
-Create Sketch on Front Face, draw Circle Dia 50 at centre, Extrude 20 - Front Lens ready
-Create Sketch on Top Face, draw Rectangle 100 x 35, Extrude 10 - Top Plate ready
-Create Sketch on Top Plate, draw Rectangle 30 x 25 in middle, Extrude 10 - Viewfinder block ready.
-<img width="385" height="450" alt="Screenshot 2026-11-16 025555" src="https://github.com/user-attachments/assets/a7853db3-75ec-4934-9ff1-b3ef9af5ca1c" />
-Use Sketch Dimension tool for all sizes 100, 50, 35, 20, 15, 10
-<img width="340" height="120" alt="Screenshot 2026-11-16 025759" src="https://github.com/user-attachments/assets/06f134c4-ba85-4564-993c-5b855513a356" />
+1. Create the main body: Start a sketch on the bottom plane, draw a rectangle, and Extrude it upward to form the main rectangular camera block.
 
-Click View Cube > Home to check Isometric view like drawing
-Press Ctrl + S to Save and Export JPG for record.
+2. <img width="292" height="227" alt="Screenshot 2026-11-17 203411" src="https://github.com/user-attachments/assets/78ab2408-2504-4e0b-82b3-c6e160c1f8e8" />
+
+3. Sketch the lens: Start a new sketch on the front vertical face of the camera block and draw a large circle centered on the face.
+
+4. <img width="692" height="126" alt="Screenshot 2026-11-17 215353" src="https://github.com/user-attachments/assets/c83b2865-8fc3-4f66-99a0-f2e15b7d410d" />
+
+5. Extrude the lens: Use the Extrude tool to pull the circle outward into a solid cylindrical lens barrel.
+
+6. <img width="437" height="522" alt="Screenshot 2026-11-17 215440" src="https://github.com/user-attachments/assets/08a0a04a-37d3-40fa-93c6-61d23b3fa199" />
+
+7. Start the top features: Create a new sketch on the top flat face of the camera body.
+   
+8. Draw the top shapes: Sketch a small square on the left, a larger rectangle in the center, and a circle on the right.
+   
+9. Extrude the buttons and viewfinder: Finish the sketch and Extrude the square button, center viewfinder block, and circular dial upward.
+   
+7.Chamfer the viewfinder: Select the Chamfer tool and click the front top edge of the center viewfinder block.
+
+8. Set the chamfer angle: Adjust the chamfer distance or angle to create the sloped front face of the viewfinder.
+
+9. <img width="760" height="505" alt="Screenshot 2026-11-17 215516" src="https://github.com/user-attachments/assets/b0448eca-18ad-4519-96aa-b18e6131c205" />
+
+10. Join all bodies: Ensure all extrusion operations are set to Join so the camera forms a single solid body.
+
+11. <img width="677" height="427" alt="Screenshot 2026-11-17 215556" src="https://github.com/user-attachments/assets/eaf1a60f-bcb2-4cab-9bd5-3e7ef88c6ff4" />
+   
+12. Inspect the model: Orbit around the 3D view to confirm all features align properly with the main body.
+
 
 ## INPUT
 <img width="751" height="652" alt="Screenshot 2026-11-16 025131" src="https://github.com/user-attachments/assets/1a649d24-a61d-4057-aa4c-659c47229d56" />
